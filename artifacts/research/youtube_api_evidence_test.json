@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0.0",
+  "status": "success",
+  "videos": [
+    {
+      "video_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU",
+      "title": "로봇청소기에 전세값 박은 로청광인이 뭐 살지 딱 정해드림! 26년ver.",
+      "published_at": "2026-05-05T23:01:00Z",
+      "analysis_status": "success",
+      "ranking_type": "unordered",
+      "transcript_status": "available",
+      "limitations": [],
+      "products": [
+        {
+          "raw_product_name": "로보락 S10 MaxV Ultra",
+          "model_name": "S10 MaxV Ultra",
+          "category_label": "가격 불문 통합 BEST",
+          "creator_rank": null,
+          "appearance_order": 1,
+          "sentiment": "recommended",
+          "reasons": [
+            "올해 가격 상관없이 최고를 꼽는 통합 BEST 플래그십 2종 중 하나",
+            "뛰어난 전반적 밸런스",
+            "강력한 실전 흡입력과 브러시 엉킴 방지 성능",
+            "우수한 소프트웨어 최적화"
+          ],
+          "evidence_summary": "올해 가격 상관없이 최고를 꼽는 통합 BEST 플래그십 2종 중 하나로 선정되었으며, 뛰어난 전반적 밸런스, 강력한 실전 흡입력과 엉킴 방지 성능, 우수한 소프트웨어 최적화를 호평받았습니다.",
+          "explicit_quote": null,
+          "timestamp": "00:35",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=35s",
+          "confidence": "high",
+          "notes": "통합 BEST 플래그십 부문 공동 선정 (순위 없음)"
+        },
+        {
+          "raw_product_name": "삼성 비스포크 AI 스팀 울트라",
+          "model_name": "비스포크 AI 스팀 울트라",
+          "category_label": "가격 불문 통합 BEST",
+          "creator_rank": null,
+          "appearance_order": 2,
+          "sentiment": "recommended",
+          "reasons": [
+            "통합 BEST 플래그십 2종 중 하나",
+            "55mm 문턱 돌파력",
+            "뛰어난 물걸레 청소 압력 및 세척력",
+            "실전 장애물 회피력",
+            "국내 대기업 A/S 인프라"
+          ],
+          "evidence_summary": "통합 BEST 플래그십으로 선정되었으며, 55mm 문턱 돌파력과 뛰어난 물걸레 청소 압력 및 세척력, 실전 장애물 회피력, 국내 대기업 A/S 인프라를 높게 평가받았습니다.",
+          "explicit_quote": null,
+          "timestamp": "00:37",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=37s",
+          "confidence": "high",
+          "notes": "통합 BEST 플래그십 부문 공동 선정 (순위 없음)"
+        },
+        {
+          "raw_product_name": "모바 S70",
+          "model_name": "S70",
+          "category_label": "가성비 BEST 중급기 부분",
+          "creator_rank": null,
+          "appearance_order": 3,
+          "sentiment": "recommended",
+          "reasons": [
+            "중급기 가성비 BEST 선정",
+            "플래그십급 회피 성능",
+            "26mm 문턱 돌파 능력",
+            "직배수 키트 지원",
+            "100만 원 이하 중급기 체급 내 독보적 가성비"
+          ],
+          "evidence_summary": "중급기 가성비 BEST로 선정되었으며, 플래그십급 회피 성능과 26mm 문턱 돌파, 직배수 지원 등 100만 원 이하 중급기 체급에서 독보적인 가성비를 지녔다고 평가했습니다.",
+          "explicit_quote": null,
+          "timestamp": "09:10",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=550s",
+          "confidence": "high",
+          "notes": "중급기 가성비 부문 추천 (순위 없음)"
+        },
+        {
+          "raw_product_name": "에코백스 T90",
+          "model_name": "T90",
+          "category_label": "가성비 BEST 중급기 부분",
+          "creator_rank": null,
+          "appearance_order": 4,
+          "sentiment": "recommended",
+          "reasons": [
+            "올해 가장 저평가된 로봇청소기로 추천",
+            "고속 충전(파워 부스트) 기능",
+            "넓은 면적 커버력",
+            "롤러형 물걸레 세척력",
+            "브러시 엉킴 방지 성능"
+          ],
+          "evidence_summary": "올해 가장 저평가된 로봇청소기라며 추천되었고, 고속 충전(파워 부스트) 기능과 넓은 면적 커버력, 롤러형 물걸레 세척력, 브러시 엉킴 방지 성능을 강점으로 꼽았습니다.",
+          "explicit_quote": null,
+          "timestamp": "14:00",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=840s",
+          "confidence": "high",
+          "notes": "중급기 가성비 부문 추천 (순위 없음)"
+        },
+        {
+          "raw_product_name": "드리미 L40s",
+          "model_name": "L40s",
+          "category_label": "가성비 BEST 중급기 부분",
+          "creator_rank": null,
+          "appearance_order": 5,
+          "sentiment": "recommended",
+          "reasons": [
+            "회전형 물걸레 선호 사용자를 위한 추천",
+            "롤러형 물걸레 관리가 부담스러운 경우 적합",
+            "가격 인하로 훌륭한 대안"
+          ],
+          "evidence_summary": "롤러형 물걸레 관리가 부담스럽고 전통적인 회전형 물걸레를 선호하는 사용자에게 가격이 낮아진 대안으로 추천되었습니다.",
+          "explicit_quote": null,
+          "timestamp": "16:38",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=998s",
+          "confidence": "high",
+          "notes": "중급기 가성비 부문 대안 추천 (순위 없음)"
+        },
+        {
+          "raw_product_name": "드리미 X60",
+          "model_name": "X60",
+          "category_label": "플래그십 가성비",
+          "creator_rank": null,
+          "appearance_order": 6,
+          "sentiment": "recommended",
+          "reasons": [
+            "플래그십 라인업 중 가성비 최고 모델",
+            "최상위 플래그십 대비 약 40만 원 이상 저렴",
+            "준수한 플래그십급 성능 제공"
+          ],
+          "evidence_summary": "플래그십 라인업 중 가성비 최고 모델로 추천되었으며, 최상위 플래그십 대비 약 40만 원 이상 저렴하면서도 준수한 성능을 제공한다고 설명했습니다.",
+          "explicit_quote": "플래그십 가성비는 볼 것도 없이 드리미 X60 사라",
+          "timestamp": "16:48",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1008s",
+          "confidence": "high",
+          "notes": "크리에이터 명시적 추천 발화 인용"
+        },
+        {
+          "raw_product_name": "에코백스 T50",
+          "model_name": "T50",
+          "category_label": "가성비 BEST 입문기 부분",
+          "creator_rank": null,
+          "appearance_order": 7,
+          "sentiment": "recommended",
+          "reasons": [
+            "60만 원 이하 입문기 부문 추천 모델",
+            "입문기 수준을 넘어서는 회피력",
+            "흡입력, 물걸레 청소력, 모서리 청소 능력 우수"
+          ],
+          "evidence_summary": "60만 원 이하 입문기 부문 추천 모델로 선정되었으며, 입문기 수준을 넘어서는 회피력, 흡입력, 물걸레 청소력, 모서리 청소 능력을 갖추었다고 호평했습니다.",
+          "explicit_quote": null,
+          "timestamp": "17:19",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1039s",
+          "confidence": "high",
+          "notes": "입문기 가성비 부문 추천 (순위 없음)"
+        },
+        {
+          "raw_product_name": "모바 P70",
+          "model_name": "P70",
+          "category_label": "가성비 BEST 입문기 부분",
+          "creator_rank": null,
+          "appearance_order": 8,
+          "sentiment": "recommended",
+          "reasons": [
+            "T50 수준의 우수한 회피력",
+            "탄탄한 기본 청소력",
+            "50만 원대 할인 시 입문용으로 고민 없이 선택할 만한 가성비"
+          ],
+          "evidence_summary": "입문기 가성비 제품으로 추천되었으며, T50 수준의 우수한 회피력과 탄탄한 기본 청소력을 제공해 50만 원대 할인 시 입문용으로 고민 없이 선택할 만하다고 평가했습니다.",
+          "explicit_quote": null,
+          "timestamp": "18:50",
+          "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1130s",
+          "confidence": "high",
+          "notes": "입문기 가성비 부문 추천 (순위 없음)"
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,12 @@ from .plan import (
     tools_planning, PLANNING_AND_TASK_TOOLS
 )
 from .supervisor_tools import invoke_sub_agent, list_sub_agents, get_sub_agent_job_status
+from .youtube_data import (
+    youtube_search_channels,
+    youtube_search_videos,
+    youtube_list_channel_videos,
+)
+from .youtube_video_analysis import analyze_public_youtube_video
 
 # 🏭 챗봇용 범용 도구 대통합 바인딩 (Tool Factory Groups)
 tools_chatbot = [
@@ -55,6 +61,8 @@ __all__ = [
     "browse_web",
     "enter_plan", "exit_plan", "task_create", "task_list", "task_update",
     "list_sub_agents", "invoke_sub_agent", "get_sub_agent_job_status",
+    "youtube_search_channels", "youtube_search_videos", "youtube_list_channel_videos",
+    "analyze_public_youtube_video",
 ]
 
 

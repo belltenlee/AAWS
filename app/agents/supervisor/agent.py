@@ -30,7 +30,27 @@ AGENT_METADATA = {
 #       3. create_agent(model=llm, tools=tools_supervisor, system_prompt=SUPERVISOR_SYSTEM_PROMPT, ...)
 #       (create_agent_executor 함수가 정의되면 FastAPI 서버와 Chainlit UI에서 자동으로 감지됩니다.)
 
-# async def create_agent_executor():
-#     llm = init_chat_model(model="gemini-3.8-flash", temperature=0.0)
-#     ...
-#     return supervisor_agent
+async def create_agent_executor():
+
+    # 1. LLM 초기화
+    llm = init_chat_model(model="gemini-3.8-flash", temperature=0.0)
+
+    # 2. AsyncSqliteSaver 체크포인터 설정
+    db_dir = "app/database"
+    os.makedirs(db_dir, exist_ok=True)
+    db_path = os.path.join(db_dir, "checkpoints.db")
+
+    conn = await aiosqlite.connect(db_path, check_same_thread=False)
+    acs = AsyncSqliteSaver(conn)
+    await acs.setup()
+
+    # 3. Supervisor 에이전트 생성
+    supervisor_agent = create_agent(
+        model=llm,
+        tools=tools_supervisor,
+        system_prompt=SUPERVISOR_SYSTEM_PROMPT,
+        checkpointer=acs,
+        context_schema=AgentContext,
+    )
+    
+    return supervisor_agent

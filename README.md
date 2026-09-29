@@ -45,11 +45,16 @@ GitHub Codespaces 환경에서는 사전 빌드된 Docker 이미지(`agent_lab`)
    GOOGLE_API_KEY="your-google-api-key"
    OPENAI_API_KEY="your-openai-api-key"
    TAVILY_API_KEY="your-tavily-api-key"
+   YOUTUBE_API_KEY="your-youtube-data-api-v3-key"
+   YOUTUBE_GOMM_CHANNEL_ID=""  # 검증한 귀곰 채널 ID를 설정하면 해당 채널로 검색 범위를 제한
    DISPLAY=":1"          # noVNC 가상 디스플레이 포트
    HEADLESS="true"       # true: 백그라운드 실행 / false: VNC 데스크톱 화면에서 브라우저 시청
    ```
    > 💡 **Tavily API 키 발급 안내**:  
    > 에이전트의 실시간 웹 검색(`web_search`) 기능을 사용하려면 **[tavily.com](https://tavily.com)** 에 접속하여 회원가입 후 무료 API 키를 발급받아 `TAVILY_API_KEY`에 입력하세요.
+
+   > 💡 **YouTube Data API 설정**:
+   > Google Cloud Console에서 YouTube Data API v3를 활성화하고 API 키를 발급받아 `YOUTUBE_API_KEY`에 입력하세요. 전체 채널 카탈로그 또는 채널 한정 검색에는 공식 채널 ID를 확인해 `YOUTUBE_GOMM_CHANNEL_ID`에 설정하세요. 영상 내용 분석에는 `GOOGLE_API_KEY`와 YouTube URL을 Gemini에 전달하며, YouTube URL 영상 입력 기능은 Gemini API 미리보기 기능입니다.
 
 ### 2. 로컬 환경 (WSL2 / Linux 수동 설치)
 

@@ -19,6 +19,7 @@ langsmith==0.10.18
 langchain-classic==1.0.8
 langchain-community==0.4.2
 langchain-google-genai==4.3.3
+google-genai>=2.0.0,<3.0.0
 langchain-tavily==0.2.18
 langchain-text-splitters==1.1.2
 langchain-postgres==0.0.17

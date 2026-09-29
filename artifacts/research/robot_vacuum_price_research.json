@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "checked_at": "2026-05-06T00:00:00Z",
+  "metadata": {
+    "source_video_title": "로봇청소기에 전세값 박은 로청광인이 뭐 살지 딱 정해드림! 26년ver.",
+    "search_engine_priority": ["naver_shopping", "danawa", "coupang"],
+    "max_search_per_product": 2,
+    "note": "검색 스니펫 기반 수집 가격은 verification_status='unverified'로 지정되었으며 최저가로 단정하지 않습니다. likely_match 후보군으로 기록되었습니다."
+  },
+  "products": [
+    {
+      "raw_product_name": "로보락 S10 MaxV Ultra",
+      "canonical_model": "S10 MaxV Ultra",
+      "identity_status": "likely_match",
+      "category_label": "가격 불문 통합 BEST",
+      "creator_rank": null,
+      "appearance_order": 1,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=35s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "쿠팡",
+          "title": "로보락 S10 MaxV Ultra (블랙)",
+          "url": "https://prod.danawa.com/info?pcode=106736864",
+          "item_price": 1490000,
+          "shipping_fee": 0,
+          "conditional_benefits": null,
+          "total_price": 1490000,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 2026.02 등록 상품 가격비교 스니펫 확인 (쿠팡 인증 무료배송 1,490,000원 표시)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "삼성 비스포크 AI 스팀 울트라",
+      "canonical_model": "비스포크 AI 스팀 울트라",
+      "identity_status": "likely_match",
+      "category_label": "가격 불문 통합 BEST",
+      "creator_rank": null,
+      "appearance_order": 2,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=37s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 입점 제휴몰",
+          "title": "삼성전자 비스포크 AI 스팀 울트라 VR90F01AAG (단품)",
+          "url": "https://prod.danawa.com/info?pcode=108229415",
+          "item_price": 1469380,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 2026.03 등록 상품 가격비교 스니펫 확인 (최저가 1,469,380원 노출, 배송비 미확인)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "모바 S70",
+      "canonical_model": "S70",
+      "identity_status": "likely_match",
+      "category_label": "가성비 BEST 중급기 부분",
+      "creator_rank": null,
+      "appearance_order": 3,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=550s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "모바 S70 Ultra Roller",
+          "url": "https://prod.danawa.com/info?pcode=105677849",
+          "item_price": 699000,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 카테고리 및 기획전 스니펫 확인 (모바 S70 Ultra Roller 699,000원 최저가 표시)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "에코백스 T90",
+      "canonical_model": "T90",
+      "identity_status": "likely_match",
+      "category_label": "가성비 BEST 중급기 부분",
+      "creator_rank": null,
+      "appearance_order": 4,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=840s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "에코백스 디봇 T90 프로 옴니",
+          "url": "https://prod.danawa.com/info?pcode=106687076",
+          "item_price": 1090000,
+          "shipping_fee": 0,
+          "conditional_benefits": null,
+          "total_price": 1090000,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 가격비교 스니펫 확인 (최저가 1,090,000원, 무료배송 표시)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "드리미 L40s",
+      "canonical_model": "L40s",
+      "identity_status": "likely_match",
+      "category_label": "가성비 BEST 중급기 부분",
+      "creator_rank": null,
+      "appearance_order": 5,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=998s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "드리미 L40s Pro Ultra",
+          "url": "https://prod.danawa.com/info?pcode=92104061",
+          "item_price": 711550,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 2025.06 등록 상품 가격비교 스니펫 확인 (최저가 711,550원 노출, 배송비 미확인)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "드리미 X60",
+      "canonical_model": "X60",
+      "identity_status": "likely_match",
+      "category_label": "플래그십 가성비",
+      "creator_rank": null,
+      "appearance_order": 6,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1008s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "드리미 X60 Ultra (화이트)",
+          "url": "https://prod.danawa.com/info?pcode=107991857",
+          "item_price": 1090000,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 로봇청소기 카테고리 15위 스니펫 확인 (최저가 1,090,000원 표시, 배송비 세부 미확인)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "에코백스 T50",
+      "canonical_model": "T50",
+      "identity_status": "likely_match",
+      "category_label": "가성비 BEST 입문기 부분",
+      "creator_rank": null,
+      "appearance_order": 7,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1039s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "에코백스 디봇 T50 프로 옴니 (단품)",
+          "url": "https://prod.danawa.com/info?pcode=96582521",
+          "item_price": 598990,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 로봇청소기 카테고리 스니펫 확인 (최저가 598,990원 표시, 배송비 세부 미확인)"
+        }
+      ]
+    },
+    {
+      "raw_product_name": "모바 P70",
+      "canonical_model": "P70",
+      "identity_status": "likely_match",
+      "category_label": "가성비 BEST 입문기 부분",
+      "creator_rank": null,
+      "appearance_order": 8,
+      "published_at": "2026-05-05T23:01:00Z",
+      "evidence_url": "https://www.youtube.com/watch?v=s8aaH8jn9KU&t=1130s",
+      "offers": [
+        {
+          "source": "danawa",
+          "seller": "다나와 제휴 판매점",
+          "title": "모바 P70 Pro Ultra",
+          "url": "https://prod.danawa.com/info?pcode=122638042",
+          "item_price": 549000,
+          "shipping_fee": null,
+          "conditional_benefits": null,
+          "total_price": null,
+          "exact_match": true,
+          "verification_status": "unverified",
+          "checked_at": "2026-05-06T00:00:00Z",
+          "evidence": "다나와 2026.04 등록 상품 가격비교 스니펫 확인 (최저가 549,000원 표시, 배송비 세부 미확인)"
+        }
+      ]
+    }
+  ]
+}

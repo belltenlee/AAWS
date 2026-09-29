@@ -1,0 +1,26 @@
+{
+  "goal": "http://quotes.toscrape.com 1페이지 및 2페이지 명언 데이터 수집",
+  "output_schema": {
+    "quote": "string - 명언 본문",
+    "author": "string - 저자 이름",
+    "author_url": "string - 저자 상세 URL",
+    "tags": "list[string] - 태그 목록"
+  },
+  "data_sources": [
+    {
+      "description": "명언 목록 페이지 (페이지 1, 2)",
+      "method": "css_selectors",
+      "details": {
+        "container": "div.quote",
+        "fields": {
+          "quote": "span.text",
+          "author": "small.author",
+          "author_url": "span a::attr(href)",
+          "tags": "div.tags a.tag"
+        }
+      }
+    }
+  ],
+  "navigation": "http://quotes.toscrape.com/page/{page_num}/ (1 to 2)",
+  "concerns": "정적 HTML 페이지로 requests/httpx 또는 aiohttp/httpx 비동기 수집 가능"
+}

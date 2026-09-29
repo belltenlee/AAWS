@@ -1,0 +1,37 @@
+{
+  "goal": "LG전자 공식 스토어에서 판매 중인 냉장고 모델 중 무작위 3개 모델의 데이터(모델명, 제품명, 가격, 주요 스펙/특징 등) 수집",
+  "output_schema": {
+    "model_name": "string - 모델명 (예: T876MEE1H1)",
+    "product_name": "string - 제품명",
+    "price": "integer 또는 string - 기본 판매가",
+    "benefit_price": "string - 최대 혜택가 (할인가)",
+    "discount_rate": "string - 할인율",
+    "description": "string - 주요 특징 및 요약 설명",
+    "specs": "dict[str, str] - 주요 규격/스펙 (전체 용량, 에너지등급, 색상 등)",
+    "url": "string - 제품 상세 URL",
+    "image_url": "string - 대표 이미지 URL"
+  },
+  "data_sources": [
+    {
+      "description": "LG전자 냉장고 카테고리 목록 및 상세 페이지 JSON-LD",
+      "method": "hybrid_html_json_ld",
+      "details": {
+        "category_url": "https://www.lge.co.kr/category/refrigerators",
+        "detail_pattern": "https://www.lge.co.kr/refrigerators/{sku}",
+        "fields": {
+          "model_name": "Product JSON-LD model",
+          "product_name": "Product JSON-LD name",
+          "price": "Product JSON-LD offers.price",
+          "benefit_price": "카테고리 목록 카드 .maximum_benefit_price",
+          "discount_rate": "카테고리 목록 카드 .discount_rate",
+          "description": "Product JSON-LD description",
+          "specs": "Product JSON-LD additionalProperty",
+          "url": "Product JSON-LD url",
+          "image_url": "Product JSON-LD image"
+        }
+      }
+    }
+  ],
+  "navigation": "카테고리 페이지 탐색 후 무작위 3개 모델 상세 페이지 수집",
+  "concerns": "301 리디렉션 대응(follow_redirects), User-Agent 헤더 명시"
+}

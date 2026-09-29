@@ -32,11 +32,12 @@
 
 scenarios:
   # ── Level 1 (정적 다중 페이지 수집 테스트) ──
-  - quotes_01_pagination.md
+#   - quotes_01_pagination.md
   
   # 추가 실습 시 아래 시나리오의 주석(#)을 해제하여 순차적으로 도전해 보세요:
-  # - quotes_02_tag_filter.md
-  # - ajax_01_playwright_wait.md
+#   - quotes_02_tag_filter.md
+#   - ajax_01_playwright_wait.md
+  - danawa_01_filter_search.md
 ```
 
 > 💡 `artifacts/scenarios/` 폴더를 열어보면 각 시나리오 파일에 대상 URL, 목표 데이터 스키마, 난이도가 상세히 정의되어 있습니다.

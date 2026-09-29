@@ -217,7 +217,7 @@ async def _process_sse_stream(
         elif event_type == "error":
             error_msg = event.get("error") or event.get("content", "알 수 없는 에러")
             await cl.Message(content=f"❌ **에러:** {error_msg}").send()
-            return None
+            continue
 
     # 정상 종료 시 미완료 그룹 Step 마무리
     if tool_group_step and tool_count > 0:

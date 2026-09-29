@@ -474,6 +474,7 @@ async def stream_agent(agent_name: str, input_data: StreamInput, request: Reques
                 add_message(input_data.thread_id, "user", input_data.message)
             
             full_response = ""
+            has_interrupt = False
             
             async for event in agent_executor.astream_events(
                 {"messages": [("user", input_data.message)]}, 
@@ -511,6 +512,7 @@ async def stream_agent(agent_name: str, input_data: StreamInput, request: Reques
                     if state and state.tasks:
                         for task in state.tasks:
                             if task.interrupts:
+                                has_interrupt = True
                                 interrupt_data = []
                                 for intr in task.interrupts:
                                     # intr.value는 HITLRequest dict (action_requests, review_configs)
@@ -537,12 +539,16 @@ async def stream_agent(agent_name: str, input_data: StreamInput, request: Reques
                 except Exception as get_state_err:
                     logger.error(f"Error getting final state: {get_state_err}")
 
+            if not full_response and not has_interrupt:
+                full_response = "요청 처리는 종료됐지만 최종 요약 응답을 생성하지 못했습니다. 위 도구 실행 결과를 확인해 주세요."
+                yield f"data: {json.dumps({'type': 'token', 'content': full_response})}\n\n"
+
             if input_data.thread_id and full_response:
                 add_message(input_data.thread_id, "assistant", full_response)
 
         except Exception as e:
             logger.error(f"Dynamic stream error in agent '{agent_name}': {e}")
-            yield f"data: {json.dumps({'error': str(e)})}\n\n"
+            yield f"data: {json.dumps({'type': 'error', 'error': str(e)})}\n\n"
         
         yield "event: end\ndata: \n\n"
 

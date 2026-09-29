@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "category": "로봇청소기",
+  "status": "found",
+  "videos": [
+    {
+      "title": "로봇청소기에 전세값 박은 로청광인이 뭐 살지 딱 정해드림! 26년ver.",
+      "description": "로봇청소기에 전세값 박은 광인이 선정한 26년 BEST 로봇청소기! 순위가 궁금하다면 끝까지 보자. #로봇청소기 #로봇청소기비교 ...",
+      "url": "https://www.youtube.com/watch?v=s8aaH8jn9KU",
+      "channel_id": "UCiTGSmGgJtKTcjEvDk_zRhw",
+      "channel_name": "귀곰",
+      "channel_verified": true,
+      "published_at": "2026-05-05T23:01:00Z",
+      "category_match": "title",
+      "transcript_status": "not_checked",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=s8aaH8jn9KU"
+      ],
+      "notes": "제목에 '로봇청소기'가 명시되어 제품군 일치 확인됨. 자막 및 세부 추천 순위는 추정하지 않음."
+    }
+  ]
+}
